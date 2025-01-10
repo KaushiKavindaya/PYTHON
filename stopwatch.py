@@ -10,7 +10,7 @@ class StopWatch(tk.Tk):
         super().__init__()
         self.title("Stop Watch")
         self.geometry("300x150")
-        self.configure(bg="#3498db")
+        self.configure(bg="#3298db")
 
         # Initialize variables
         self.time_elapsed = 0
